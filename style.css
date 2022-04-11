@@ -1,4 +1,77 @@
 body {
     font-family: 'Poppins', sans-serif;
     ;
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding: 5%;
+}
+
+h1 {
+    font-size: 700;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: #575757;
+}
+
+.skip {
+    color: tomato;
+    font-size: 700;
+}
+
+.half-width p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 160%;
+    letter-spacing: -0.02em;
+    color: #828282;
+}
+
+.btn {
+    color: white;
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.first-banner {
+    background-color: antiquewhite;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    background-image: url("images/shapes/Group\ 8450.png");
+    background-repeat: no-repeat;
+}
+
+.scond-banner {
+    background-color: antiquewhite;
+    margin-top: 10px;
+    background-image: url("images/shapes/Group\ 8446.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 60%;
+}
+
+.medial-banner-size {
+    display: flex;
+    background-image: url("images/shapes/Group\ 8449.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 12px;
+}
+
+.width-hlaf {
+    text-align: center;
+    margin-left: 15%;
+
 }
